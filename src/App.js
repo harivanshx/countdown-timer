@@ -73,7 +73,9 @@ const CountdownTimer = () => {
       <p className='counter'>{`${Math.floor(seconds / 60)}:${(seconds % 60).toLocaleString('en-US', { minimumIntegerDigits: 2 })}`}</p>
       <button className='duration-button' onClick={() => handleDurationChange(300)}>5 minutes</button>
       <button className='duration-button' onClick={() => handleDurationChange(600)}>10 minutes</button>
+      <br />
       <button className='duration-button' onClick={() => handleDurationChange(900)}>15 minutes</button>
+      <button className='duration-button' onClick={() => handleDurationChange(1200)}>20 minutes</button>
       <div>
         <br />
         <input type="number" value={customDuration} onChange={handleCustomDurationChange} placeholder="Duration in minutes" />
