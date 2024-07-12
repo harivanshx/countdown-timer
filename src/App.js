@@ -85,7 +85,7 @@ const CountdownTimer = () => {
       <button className='stop-button' onClick={handleStopStart}>{isPaused ? 'Start' : 'Stop'}</button>
       <br />
 <br/>
-      <h5>Made with ❣️ by <a href="https://www.github.com/harivanshx/">Harivanshx</a></h5>
+      <h5>Made with ❣️ by <a href="https://www.github.com/harivanshx/">Harivansh Bhardwaj</a></h5>
     </div>
   );
 };
